@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaila Management - Library System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Kaila Management</h1>
+        </div>
+        <nav>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="menu">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#" class="btn-login">Register/Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section 1: Search & About Us -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="search-container">
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Search for books, authors, or keywords..."
+            />
+            <button class="search-btn">Search</button>
+            <button class="advanced-btn">Advanced</button>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <img src="images/libsystemlogo.png" alt="Kaila Management Logo" />
+          </div>
+          <div class="about-text">
+            <h2>About Kaila Management</h2>
+            <div class="short-description">
+              <p>
+                Kaila Management is a next-generation Library Management System
+                that transforms and optimizes library operations. Our platform
+                provides a streamlined, user-friendly digital experience that
+                empowers libraries to manage books, users, and transactions more
+                efficiently.
+              </p>
+            </div>
+            <div class="full-description hidden">
+              <p>
+                Our mission is to provide a streamlined, user-friendly digital
+                platform that empowers libraries to manage books, users, and
+                transactions more efficiently. The system allows users to
+                perform advanced searches with predictive text, sort books by
+                various criteria, and check real-time availability.
+              </p>
+              <p>
+                Additionally, users can manage their borrowed books, waitlists,
+                reservations, and receive personalized book recommendations. The
+                platform includes a dedicated admin portal for administrators to
+                manage books, user accounts, and system settings effectively.
+              </p>
+              <p>
+                The ultimate goal is to create a seamless, organized, and
+                accessible experience for users and library staff.
+              </p>
+            </div>
+            <button class="read-more-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Services -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3>SmartSearch</h3>
+            <p>
+              Advanced search with predictive text allows you to find books by
+              title, author, or keyword with dynamic suggestions as you type.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h3>Now on the Shelf</h3>
+            <p>
+              Real-time book availability tracking lets you see which books are
+              currently available for borrowing, with instant status updates.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-bookmark"></i>
+            </div>
+            <h3>Book Reservation & Waitlist</h3>
+            <p>
+              Reserve checked-out books and join waitlists to receive alerts
+              when your desired books become available.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-envelope"></i> info@kailamanagement.com</p>
+          <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Library Lane, City,
+            Country
+          </p>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#">Register/Log In</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Bottom bar outside container for full width -->
+      <div class="bottom-bar">
+        <p>&copy; 2025 Kaila Management. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
